@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.main {
+  background-image: url("./classy-restaurant.jpg");
+  background-repeat: no-repeat;
+  background-size: "cover";
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 83vh;
+  padding-top: 80px;
+}
+
+.navbarStyle {
+  background-color: #1f2428;
+
+}
+.brandIcon{
+ font-weight: bolder;
+}
+
+.middle {
+  padding-top: 20px;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  height: 50vh;
+  width: 40vw;
+  background: rgba(222, 227, 230, 0.7);
+  z-index: 10;
+  border-radius: 3%;
+}
+.middle h1 {
+  color: #0a001a;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.userForm{
+  text-align: center;
+  align-items: center;
+  margin: 50px 80px 50px 80px;
+}
+.formItem{
+  margin: 6px;
+  box-sizing: border-box;
+}
+.footer{
+  align-items: center;
+  text-align: center;
+  padding-top: 7px;
+  height: 71px;
+  width: 100%;
+  background-color: rgb(189, 185, 185);
+}
+
+.icon{
+  margin: 8px;
+  padding: 6px;
+  font-size: x-large;
+  color: #212222;
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .middle {
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    height: 50vh;
+    width: 60vw;
+    background: rgba(222, 227, 230, 0.7);
+    z-index: 10;
+    border-radius: 3%;
+  }
+  .userForm{
+    text-align: center;
+    align-items: center;
+    margin: 50px 80px 50px 80px;
+  }
+}
+@media  (max-width: 600px) {
+  .middle {
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    height: 60vh;
+    width: 85vw;
+    background: rgba(222, 227, 230, 0.7);
+    z-index: 10;
+    border-radius: 3%;
+  }
+  .userForm{
+    text-align: center;
+    align-items: center;
+    box-sizing: content-box;
+    margin: 40px 20px 40px 20px;
+  }
+  .formItem{
+    margin: 6px;
+  }
+  .icon{
+    margin: 5px;
+    padding: 5px;
+    font-size: x-large;
+    color: #1f2428;
+  }
+}
+
+
